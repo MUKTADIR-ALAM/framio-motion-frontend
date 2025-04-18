@@ -1,16 +1,31 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { Route, Routes } from "react-router";
+import MainLayout from "./Layout/MainLayout";
+import Hompage from "./Pages/Home/Hompage";
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <> 
-<button className="btn btn-warning">Warning</button>
+    <>
+      <Routes>
+
+        <Route path='/' element={<MainLayout />}>
+          <Route path="/" element={<Hompage/>}> </Route>
+        </Route>
+
+      </Routes>
+
+
+      
     </>
-  )
+  );
 }
 
-export default App
+export default App;
+
+
+
+
+
+
+
+
