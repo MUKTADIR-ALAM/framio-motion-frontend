@@ -5,8 +5,8 @@ import { Outlet } from "react-router";
 
 export default function MainLayout() {
   return (
-    <div className="font-roboto">
-      <header className="">
+    <div className="font-roboto bg-black">
+      <header>
         <Navbar />
       </header>
 

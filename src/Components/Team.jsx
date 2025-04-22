@@ -57,13 +57,13 @@ export default function Team() {
             <div className="m-2.5 overflow-hidden rounded-md h-80 flex justify-center items-center">
               <img
                 className="w-full h-full object-cover"
-                src="https://docs.material-tailwind.com/img/team-3.jpg"
+                src="https://i.ibb.co.com/ZRbMVCK2/Whats-App-Image-2025-04-23-at-12-25-12-AM.jpg"
                 alt="profile-picture"
               />
             </div>
             <div className="p-6 text-center">
               <h4 className="mb-1 text-xl font-semibold">
-                Nayeem SA
+              Nihad Al Nayeem
               </h4>
               <p className="text-sm font-light uppercase">
               Chief Creative Officer (CCO)
