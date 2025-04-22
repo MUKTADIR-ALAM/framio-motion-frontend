@@ -7,45 +7,52 @@ export default function Team() {
 
       {/* team section */}
       <div className="grid grid-cols-3 gap-4 w-11/12 mx-auto ">
-      {/* walid card */}
+     
+
+
           <div className="flex flex-col shadow-sm   rounded-lg my-6 w-96">
             <div className="m-2.5 overflow-hidden rounded-md h-80 flex justify-center items-center">
               <img
                 className="w-full h-full object-cover"
-                src="https://docs.material-tailwind.com/img/team-3.jpg"
+                src="https://i.ibb.co.com/0b1VSNf/880-1966-151386-20250423-000233.jpg"
                 alt="profile-picture"
               />
             </div>
             <div className="p-6 text-center">
               <h4 className="mb-1 text-xl font-semibold">
-                Natalie Paisley
+                Abid Hasan Ovi
               </h4>
-              <p className="text-sm font-semibold uppercase">
-                Product Manager
+              <p className="text-sm font-light uppercase">
+              Founder & CEO
               </p>
               
             </div>
             
           </div>
+
+
+ {/* walid card */}
           <div className="flex flex-col shadow-sm   rounded-lg my-6 w-96">
             <div className="m-2.5 overflow-hidden rounded-md h-80 flex justify-center items-center">
               <img
                 className="w-full h-full object-cover"
-                src="https://docs.material-tailwind.com/img/team-3.jpg"
+                src="https://i.ibb.co.com/7BtvmR9/439764540-1631069414387050-7849061694803665091-n-1.jpg"
                 alt="profile-picture"
               />
             </div>
             <div className="p-6 text-center">
               <h4 className="mb-1 text-xl font-semibold">
-                Natalie Paisley
+                Waliullah walid
               </h4>
-              <p className="text-sm font-semibold uppercase">
-                Product Manager
+              <p className="text-sm font-light uppercase">
+               Founder & CEO
               </p>
               
             </div>
             
           </div>
+
+
           <div className="flex flex-col shadow-sm   rounded-lg my-6 w-96">
             <div className="m-2.5 overflow-hidden rounded-md h-80 flex justify-center items-center">
               <img
@@ -56,10 +63,10 @@ export default function Team() {
             </div>
             <div className="p-6 text-center">
               <h4 className="mb-1 text-xl font-semibold">
-                Natalie Paisley
+                Nayeem SA
               </h4>
-              <p className="text-sm font-semibold uppercase">
-                Product Manager
+              <p className="text-sm font-light uppercase">
+              Chief Creative Officer (CCO)
               </p>
               
             </div>
