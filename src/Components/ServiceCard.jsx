@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function ServiceCard({imgSrc}) {
+export default function ServiceCard({imgSrc , serviceName="Video Editing"}) {	
   return (
     <div className="relative flex flex-col my-6  shadow-lg hover:scale-105 transition delay-120 duration-300 ease-in-out hover:shadow-amber-300 border border-yellow-300 rounded-lg w-96">
       <div className="relative h-56 m-2.5 overflow-hidden text-white rounded-md">
@@ -11,7 +11,7 @@ export default function ServiceCard({imgSrc}) {
       </div>
       <div className="p-4">
         <h6 className="mb-2 text-xl font-semibold">
-          weeding video Editing
+          {serviceName}
         </h6>
         
       </div>
