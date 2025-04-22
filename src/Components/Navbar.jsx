@@ -12,14 +12,14 @@ export default function Navbar() {
       {/* brand name div */}
       <div className="flex items-center">
         <img className="w-20" src={logo} alt="" />
-        <h1 className="text-xl font-semibold flex flex-col">
+        <h1 className="text-lg font-semibold flex flex-col gap-0">
           <span>Framio</span> <span>Motion</span>
         </h1>
       </div>
 
       {/* action div */}
       <div>
-        <button className="btn bg-yellow-300 shadow-none text-black rounded-2xl font-normal group text-xl py-6 px-5">
+        <button className="btn bg-yellow-300 shadow-none text-black rounded-2xl font-semibold group text-xl py-6 px-5">
           Get Quote <div className="transform transition-transform duration-300 ease-in-out group-hover:rotate-45"> <GoArrowUpRight size={25} /></div>
         </button>
       </div>
