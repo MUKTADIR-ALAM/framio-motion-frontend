@@ -18,11 +18,11 @@ export default function Navbar() {
       </div>
 
       {/* action div */}
-      <div>
-        <button className="btn bg-yellow-300 shadow-none text-black rounded-2xl font-semibold group text-xl py-6 px-5">
+      {/* <div>
+        <button className="btn bg-theme shadow-none text-gray-800 rounded-xl font-semibold group text-xl py-6 px-5">
           Get Quote <div className="transform transition-transform duration-300 ease-in-out group-hover:rotate-45"> <GoArrowUpRight size={25} /></div>
         </button>
-      </div>
+      </div> */}
 
       {/* menu div */}
       <div>

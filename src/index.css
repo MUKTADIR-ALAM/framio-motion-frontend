@@ -3,6 +3,10 @@
 @plugin "daisyui";
 
 
+@theme {
+  --color-theme: #87e64c;
+}
+
 html {
   scroll-behavior: smooth;
   font-family: "Anybody", sans-serif;
