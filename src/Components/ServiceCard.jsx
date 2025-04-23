@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ServiceCard({imgSrc , serviceName="Video Editing"}) {	
   return (
-    <div className="relative flex flex-col my-6  shadow-lg hover:scale-105 transition delay-120 duration-300 ease-in-out hover:shadow-theme bg-gray-800 rounded-lg w-96">
+    <div className="relative flex flex-col my-6  shadow-lg hover:scale-105 transition delay-120 duration-300 ease-in-out hover:shadow-theme bg-gray-800 rounded-lg ">
       <div className="relative h-56 m-2.5 overflow-hidden text-white rounded-md">
         <img
           src={imgSrc}

@@ -7,7 +7,7 @@ export default function Hero() {
       {/* slogan div */}
 
       <div className="">
-        <h1 className="text-5xl mt-30 mx-auto w-11/12 leading-20">
+        <h1 className="lg:text-5xl text-3xl mt-20 mx-auto w-11/12 lg:leading-16 leading-10">
           A <span className="text-theme">video agency</span> for the
           future. Make your thought into reality with us.
         </h1>
