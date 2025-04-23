@@ -37,7 +37,7 @@ export default function () {
         <SwiperSlide className="relative">
           <div className="flex flex-col justify-around items-center h-full">
             <img
-              className="w-[700px] h-[350px] mx-auto"
+              className="w-[700px] h-[250px] md:h-[350px] mx-auto"
               src="https://i.ibb.co.com/8DjhPLNZ/image.png"
               alt=""
             />

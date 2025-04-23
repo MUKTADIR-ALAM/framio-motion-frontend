@@ -8,7 +8,7 @@ import logo from "../assets/logo.png";
 
 export default function Navbar() {
   return (
-    <div className="flex justify-between items-center ml-4 mr-20 ">
+    <div className="flex justify-between items-center w-11/12 mx-auto py-5">
       {/* brand name div */}
       <div className="flex items-center">
         <img className="w-20" src={logo} alt="" />

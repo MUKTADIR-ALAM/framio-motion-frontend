@@ -3,7 +3,7 @@ import background from "../assets/background.png";
 
 export default function Hero() {
   return (
-    <div className="flex mx-auto w-11/12">
+    <div className="flex flex-col lg:flex-row mx-auto w-11/12">
       {/* slogan div */}
 
       <div className="">
@@ -20,7 +20,7 @@ export default function Hero() {
         </button>
       </div>
 
-      <img className="w-6/12 mx-auto" src={background} alt="" />
+      <img className="w-full lg:w-6/12 mx-auto" src={background} alt="" />
     </div>
   );
 }

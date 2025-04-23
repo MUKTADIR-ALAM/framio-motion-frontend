@@ -6,7 +6,7 @@ export default function Team() {
       <h2 className="text-4xl mt-30 mx-auto w-11/12 leading-20">Meet our Team</h2>
 
       {/* team section */}
-      <div className="grid grid-cols-3 gap-4 w-11/12 mx-auto ">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 w-11/12 mx-auto ">
      
 
 
