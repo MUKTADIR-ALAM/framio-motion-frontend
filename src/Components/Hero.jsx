@@ -1,5 +1,6 @@
 import { GoArrowUpRight } from "react-icons/go";
 import background from "../assets/background.png";
+import { Typewriter } from "react-simple-typewriter";
 
 export default function Hero() {
   return (
@@ -8,8 +9,18 @@ export default function Hero() {
 
       <div className="">
         <h1 className="lg:text-5xl text-3xl mt-20 mx-auto w-11/12 lg:leading-16 leading-10">
-          A <span className="text-theme">video agency</span> for the
-          future. Make your thought into reality with us.
+          Make your thought into reality with us. we build complete{" "}
+          <span className="text-theme">
+          <Typewriter
+            words={["Video editing", "Web Apps", "Grapic Design", "Digital Marketing"]}
+            loop={5}
+            cursor
+            cursorStyle=""
+            typeSpeed={70}
+            deleteSpeed={50}
+            delaySpeed={1000}
+          />
+          </span>
         </h1>
         <button className="ml-5 mt-5 btn bg-theme shadow-none text-gray-800 rounded-xl font-semibold group text-xl py-6 px-5">
           Get Quote{" "}

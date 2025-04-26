@@ -10,10 +10,10 @@ export default function Team() {
      
 
 
-          <div className="flex flex-col shadow-sm   rounded-lg my-6 ">
+          <div className="flex flex-col shadow-sm rounded-lg my-6 ">
             <div className="m-2.5 overflow-hidden rounded-md h-80 flex justify-center items-center">
               <img
-                className="w-full h-full object-cover"
+                className="w-full h-full object-fit"
                 src="https://i.ibb.co.com/0b1VSNf/880-1966-151386-20250423-000233.jpg"
                 alt="profile-picture"
               />
