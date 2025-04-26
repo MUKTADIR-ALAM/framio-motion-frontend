@@ -19,6 +19,9 @@ export default function () {
 
   return (
     <div className="w-11/12 mx-auto h-[500px]">
+
+<h2 className="my-6 text-2xl font-bold">Our Client Feedback</h2>
+
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
@@ -44,26 +47,25 @@ export default function () {
 
             <div className="flex flex-col justify-center items-center">
               <p className="text-lg mb-2 font-bold">
-                Framio motion just ruined my project. dont hire this company for
-                video editing
+              They took our vision and elevated it beyond our imagination. The storytelling, transitions, and overall quality were flawless. Highly recommended for anyone serious about great content
               </p>
               <p>--- Pixels Work</p>
             </div>
           </div>
         </SwiperSlide>
 
-
+{/* weeding veil */}
         <SwiperSlide>
           <div className="flex flex-col justify-around items-center h-full">
             <img
-              className="w-[700px] h-[350px] mx-auto"
-              src="https://i.ibb.co.com/NgZwNLyc/image.png"
+              className="w-[700px] h-[250px] md:h-[350px] mx-auto"
+              src="https://i.ibb.co.com/CpMpZ7J5/image.png"
               alt=""
             />
 
             <div className="flex flex-col justify-center items-center">
               <p className="text-lg mb-2 font-bold">
-                FUCK framio motion fuck this comapany fuck there CEO . They dont do proper video editing
+              The best video editors we've ever partnered with. Professional, creative, and reliable. They made our promotional videos look Hollywood-level good!
               </p>
               <p>--- Wedding Veil Bangladesh</p>
             </div>
@@ -73,14 +75,14 @@ export default function () {
 
         <SwiperSlide><div className="flex flex-col justify-around items-center h-full">
             <img
-              className="w-[700px] h-[350px] mx-auto"
-              src="https://i.ibb.co.com/r2RVbBZ0/image.png"
+              className="w-[700px] h-[250px] md:h-[350px] mx-auto"
+              src="https://i.ibb.co.com/VW7V3DFQ/image.png"
               alt=""
             />
 
             <div className="flex flex-col justify-center items-center">
               <p className="text-lg mb-2 font-bold">
-                FUCK framio motion fuck this comapany fuck there CEO . They dont do proper video editing
+              Incredible experience from start to finish! Fast delivery, stunning edits, and they truly made our brand come alive through video. Can't wait to work with them again.
               </p>
               <p>--- Snap Moment</p>
             </div>

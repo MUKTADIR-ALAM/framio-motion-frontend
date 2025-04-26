@@ -47,10 +47,16 @@ export default function Navbar() {
               <ul className="menu bg-base-200 text-base-content min-h-full w-80 p-4">
                 {/* Sidebar content here */}
                 <li>
-                  <a>Sidebar Item 1</a>
+                  <a>Video Editing Sercives</a>
                 </li>
                 <li>
-                  <a>Sidebar Item 2</a>
+                  <a>Client Feedback</a>
+                </li>
+                <li>
+                  <a>Our Sercices</a>
+                </li>
+                <li>
+                  <a>Contact US</a>
                 </li>
               </ul>
             </div>
