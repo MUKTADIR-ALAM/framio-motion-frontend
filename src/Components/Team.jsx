@@ -11,9 +11,9 @@ export default function Team() {
 
 
           <div className="flex flex-col shadow-sm rounded-lg my-6 ">
-            <div className="m-2.5 overflow-hidden rounded-md h-80 flex justify-center items-center">
+            <div className="m-2.5  overflow-hidden rounded-md h-96 flex justify-center items-center">
               <img
-                className="w-full h-full object-fill"
+                className="w-full h-full object-right-top"
                 src="https://i.ibb.co.com/0b1VSNf/880-1966-151386-20250423-000233.jpg"
                 alt="profile-picture"
               />
@@ -33,7 +33,7 @@ export default function Team() {
 
  {/* walid card */}
           <div className="flex flex-col shadow-sm   rounded-lg my-6">
-            <div className="m-2.5 overflow-hidden rounded-md h-80 flex justify-center items-center">
+            <div className="m-2.5 overflow-hidden rounded-md h-96 flex justify-center items-center">
               <img
                 className="w-full h-full object-cover"
                 src="https://i.ibb.co.com/pB81j2Fc/Untitled-design-5.png"
@@ -54,7 +54,7 @@ export default function Team() {
 
 
           <div className="flex flex-col shadow-sm   rounded-lg my-6">
-            <div className="m-2.5 overflow-hidden rounded-md h-80 flex justify-center items-center">
+            <div className="m-2.5 overflow-hidden rounded-md h-96 flex justify-center items-center">
               <img
                 className="w-full h-full object-cover"
                 src="https://i.ibb.co.com/ZRbMVCK2/Whats-App-Image-2025-04-23-at-12-25-12-AM.jpg"
