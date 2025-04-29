@@ -20,13 +20,14 @@ export default function WeddingVideoPage() {
 
 
       <h2 className="text-4xl font-bold mb-10">Our wedding trailer Edits</h2>
-      <div className="grid grid-cols-2 gap-4 items-center  space-y-4">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 items-center  space-y-4">
         {videosTrailerArray.map((video, idx) => {
           return (
             <div key={idx}>
               <iframe
-                width="560"
-                height="315"
+              className="w-[340px] h-[270px] lg:w-[560px] lg:h-[315px]"
+                // width="560"
+                // height="315"
                 src={video}
                 title="YouTube video player"
                 frameBorder="0"
@@ -42,13 +43,14 @@ export default function WeddingVideoPage() {
 
 
       <h2 className="text-4xl font-bold my-20">Our wedding Teaser Edits</h2>
-      <div className="grid grid-cols-2 gap-4 items-center  space-y-4">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 items-center  space-y-4">
         {videosTeaserArray.map((video, idx) => {
           return (
             <div key={idx}>
               <iframe
-                width="560"
-                height="315"
+                // width="560"
+                // height="315"
+                className="w-[340px] h-[270px] lg:w-[560px] lg:h-[315px]"
                 src={video}
                 title="YouTube video player"
                 frameBorder="0"

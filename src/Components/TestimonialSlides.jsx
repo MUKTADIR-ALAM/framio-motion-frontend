@@ -94,8 +94,6 @@ export default function () {
           </div>
         </SwiperSlide>
 
-
-
         <SwiperSlide>
           <div className="flex flex-col justify-around items-center h-full">
             <img
@@ -106,13 +104,32 @@ export default function () {
 
             <div className="flex flex-col justify-center items-center">
               <p className="text-lg mb-2 font-bold w-4xl mx-auto">
-              Great communication, amazing results. I’ll definitely work with them again!
+                Great communication, amazing results. I’ll definitely work with
+                them again!
               </p>
               <p>--- নাটাই - Reel</p>
             </div>
           </div>
         </SwiperSlide>
 
+        <SwiperSlide>
+          <div className="flex flex-col justify-around items-center h-full">
+            <img
+              className="w-[700px] h-[250px] md:h-[350px] mx-auto"
+              src="https://i.ibb.co.com/1Gb8Y3PS/image.png"
+              alt=""
+            />
+
+            <div className="flex flex-col justify-center items-center">
+              <p className="text-lg mb-2 font-bold w-4xl mx-auto">
+                Their promo edits turned our brand into a story customers
+                connect with." "Top-notch visuals, seamless transitions—our
+                campaign looked cinematic!
+              </p>
+              <p>--- BazarSodai</p>
+            </div>
+          </div>
+        </SwiperSlide>
 
         <div className="autoplay-progress" slot="container-end">
           <svg viewBox="0 0 48 48" ref={progressCircle}>

@@ -37,9 +37,9 @@ const WhatWeDoSection = () => {
       title: "Graphic Design",
       color: "bg-blue-500",
       items: [
+        "Weeding photo Editing",
         "Brand Identity Design",
         "Logo Design",
-        "UI/UX Design",
         "Print Design",
         "Illustration",
         "Packaging Design",

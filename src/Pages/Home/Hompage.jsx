@@ -4,6 +4,7 @@ import Team from "../../Components/Team";
 import Testimonial from "../../Components/Testimonial";
 import TestimonialSlides from "../../Components/TestimonialSlides";
 import WhatWeDoSection from "../../Components/WhatWeDoSection";
+import Skills from "../../Components/Skills";
 
 export default function Hompage() {
   return (
@@ -11,7 +12,8 @@ export default function Hompage() {
       <Hero/>
       <VideoEditService/>
       <TestimonialSlides/>
-      <Testimonial/>
+      {/* <Testimonial/> */}
+      <Skills/>
       <WhatWeDoSection/>
       <Team/>
     </div>
