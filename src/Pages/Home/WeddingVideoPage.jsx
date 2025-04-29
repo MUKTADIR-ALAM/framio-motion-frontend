@@ -2,16 +2,17 @@ import React from "react";
 
 export default function WeddingVideoPage() {
   const videosTrailerArray = [
-    "https://www.youtube.com/embed/NlAVTl8EPsQ?si=m6BaqGhirP9qqrMU",
-    "https://www.youtube.com/embed/-Vb-d4dLo6k?si=7DqcN_7tyINGkhOp",
     "https://www.youtube.com/embed/gPjYETEPOrg?si=dsGz2A09Zga18zRX",
+    "https://www.youtube.com/embed/-Vb-d4dLo6k?si=7DqcN_7tyINGkhOp",
     "https://www.youtube.com/embed/oSlkhlyFtKo?si=SaXGGQxpWXEFYmXw",
     "https://www.youtube.com/embed/lF3YLPvLRKQ?si=smImcl9rRsD4F_07",
+    "https://www.youtube.com/embed/NlAVTl8EPsQ?si=m6BaqGhirP9qqrMU",
+    "https://www.youtube.com/embed/-RqqUytgxkc?si=lOyI8H_PJSX0itKh",
   ];
 
   const videosTeaserArray = [
-    "https://www.youtube.com/embed/gwmr3pcBlUo?si=FzK2JmSoz0s9CBTq",
     "https://www.youtube.com/embed/M5r9NOPcDaY?si=liLPTAIvE0n2m-kN",
+    "https://www.youtube.com/embed/gwmr3pcBlUo?si=FzK2JmSoz0s9CBTq",
   ];
 
   return (

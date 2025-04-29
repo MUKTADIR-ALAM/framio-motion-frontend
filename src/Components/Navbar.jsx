@@ -44,18 +44,18 @@ export default function Navbar() {
                 aria-label="close sidebar"
                 className="drawer-overlay"
               ></label>
-              <ul className="menu bg-base-200 text-base-content min-h-full w-xl p-4">
+              <ul className="menu bg-base-200 text-base-content min-h-full w-80 p-4">
                 {/* Sidebar content here */}
-                <li>
+                <li className="border-b">
                   <a>Video Editing Sercives</a>
                 </li>
-                <li>
+                <li className="border-b">
                   <a>Client Feedback</a>
                 </li>
-                <li>
+                <li className="border-b">
                   <a>Our Sercices</a>
                 </li>
-                <li>
+                <li className="border-b">
                   <a>Contact US</a>
                 </li>
               </ul>

@@ -26,7 +26,7 @@ export default function () {
         spaceBetween={30}
         centeredSlides={true}
         autoplay={{
-          delay: 2500,
+          delay: 7500,
           disableOnInteraction: false,
         }}
         pagination={{
@@ -46,7 +46,7 @@ export default function () {
             />
 
             <div className="flex flex-col justify-center items-center">
-              <p className="text-lg mb-2 font-bold">
+              <p className="text-lg mb-2 font-bold w-4xl mx-auto">
               They took our vision and elevated it beyond our imagination. The storytelling, transitions, and overall quality were flawless. Highly recommended for anyone serious about great content
               </p>
               <p>--- Pixels Work</p>
@@ -64,8 +64,8 @@ export default function () {
             />
 
             <div className="flex flex-col justify-center items-center">
-              <p className="text-lg mb-2 font-bold">
-              The best video editors we've ever partnered with. Professional, creative, and reliable. They made our promotional videos look Hollywood-level good!
+              <p className="text-lg mb-2 font-bold w-4xl mx-auto">
+              The best video editors we've ever partnered with. Professional, creative, and reliable. They made our weeding videos look verry Professional!
               </p>
               <p>--- Wedding Veil Bangladesh</p>
             </div>
@@ -81,7 +81,7 @@ export default function () {
             />
 
             <div className="flex flex-col justify-center items-center">
-              <p className="text-lg mb-2 font-bold">
+              <p className="text-lg mb-2 font-bold w-4xl mx-auto">
               Incredible experience from start to finish! Fast delivery, stunning edits, and they truly made our brand come alive through video. Can't wait to work with them again.
               </p>
               <p>--- Snap Moment</p>
