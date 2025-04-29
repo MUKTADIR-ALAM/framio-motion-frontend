@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { Database, FileJson, Github, Layout } from "lucide-react";
 import premierPro from "../assets/premierPro.png";
 import afterEffect from "../assets/afterEffect.png";
 import davinci from "../assets/davinci.png";

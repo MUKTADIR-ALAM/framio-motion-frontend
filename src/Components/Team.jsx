@@ -13,8 +13,8 @@ export default function Team() {
           <div className="flex flex-col shadow-sm rounded-lg my-6 ">
             <div className="m-2.5  overflow-hidden rounded-md h-80 flex justify-center items-center">
               <img
-                className="w-full h-full object-fit"
-                src="https://i.ibb.co.com/hT11rc7/avid.jpg"
+                className="w-full h-full object-cover"
+                src="https://i.ibb.co.com/dwyLbDfV/880-1966-151386-20250423-000233-3.jpg"
                 alt="profile-picture"
               />
             </div>
@@ -35,8 +35,8 @@ export default function Team() {
           <div className="flex flex-col shadow-sm rounded-lg my-6">
             <div className="m-2.5 overflow-hidden rounded-md h-80 flex justify-center items-center">
               <img
-                className="w-full h-full object-fit"
-                src="https://i.ibb.co.com/7t1fvynq/walid.png"
+                className="w-full h-full object-cover"
+                src="https://i.ibb.co.com/pB81j2Fc/Untitled-design-5.png"
                 alt="profile-picture"
               />
             </div>
