@@ -36,7 +36,7 @@ export default function Navbar() {
                 htmlFor="my-drawer"
                 className="flex gap-2 items-center drawer-button"
               >
-                <span className="text-[22px] z-10">Menu</span> <RiMenu4Line size={20} />
+                <span className="text-[22px] z-10">Menu</span> <span className="z-10"><RiMenu4Line size={20} /></span>
               </label>
             </div>
             <div className="drawer-side">
