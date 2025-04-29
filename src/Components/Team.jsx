@@ -36,7 +36,7 @@ export default function Team() {
             <div className="m-2.5 overflow-hidden rounded-md h-80 flex justify-center items-center">
               <img
                 className="w-full h-full object-cover"
-                src="https://i.ibb.co.com/20fG7Dny/1745773589310.jpg"
+                src="https://i.ibb.co.com/7t1fvynq/walid.png"
                 alt="profile-picture"
               />
             </div>
