@@ -19,8 +19,7 @@ export default function () {
 
   return (
     <div className="w-11/12 mx-auto h-[500px]">
-
-<h2 className="my-6 text-2xl font-bold">Our Client Feedback</h2>
+      <h2 className="my-6 text-2xl font-bold">Our Client Feedback</h2>
 
       <Swiper
         spaceBetween={30}
@@ -47,14 +46,16 @@ export default function () {
 
             <div className="flex flex-col justify-center items-center">
               <p className="text-lg mb-2 font-bold w-4xl mx-auto">
-              They took our vision and elevated it beyond our imagination. The storytelling, transitions, and overall quality were flawless. Highly recommended for anyone serious about great content
+                They took our vision and elevated it beyond our imagination. The
+                storytelling, transitions, and overall quality were flawless.
+                Highly recommended for anyone serious about great content
               </p>
               <p>--- Pixels Work</p>
             </div>
           </div>
         </SwiperSlide>
 
-{/* weeding veil */}
+        {/* weeding veil */}
         <SwiperSlide>
           <div className="flex flex-col justify-around items-center h-full">
             <img
@@ -65,15 +66,17 @@ export default function () {
 
             <div className="flex flex-col justify-center items-center">
               <p className="text-lg mb-2 font-bold w-4xl mx-auto">
-              The best video editors we've ever partnered with. Professional, creative, and reliable. They made our weeding videos look verry Professional!
+                The best video editors we've ever partnered with. Professional,
+                creative, and reliable. They made our weeding videos look verry
+                Professional!
               </p>
               <p>--- Wedding Veil Bangladesh</p>
             </div>
           </div>
         </SwiperSlide>
 
-
-        <SwiperSlide><div className="flex flex-col justify-around items-center h-full">
+        <SwiperSlide>
+          <div className="flex flex-col justify-around items-center h-full">
             <img
               className="w-[700px] h-[250px] md:h-[350px] mx-auto"
               src="https://i.ibb.co.com/VW7V3DFQ/image.png"
@@ -82,11 +85,35 @@ export default function () {
 
             <div className="flex flex-col justify-center items-center">
               <p className="text-lg mb-2 font-bold w-4xl mx-auto">
-              Incredible experience from start to finish! Fast delivery, stunning edits, and they truly made our brand come alive through video. Can't wait to work with them again.
+                Incredible experience from start to finish! Fast delivery,
+                stunning edits, and they truly made our brand come alive through
+                video. Can't wait to work with them again.
               </p>
               <p>--- Snap Moment</p>
             </div>
-          </div></SwiperSlide>
+          </div>
+        </SwiperSlide>
+
+
+
+        <SwiperSlide>
+          <div className="flex flex-col justify-around items-center h-full">
+            <img
+              className="w-[700px] h-[250px] md:h-[350px] mx-auto"
+              src="https://i.ibb.co.com/CsTyttHH/image.png"
+              alt=""
+            />
+
+            <div className="flex flex-col justify-center items-center">
+              <p className="text-lg mb-2 font-bold w-4xl mx-auto">
+              Great communication, amazing results. I’ll definitely work with them again!
+              </p>
+              <p>--- নাটাই - Reel</p>
+            </div>
+          </div>
+        </SwiperSlide>
+
+
         <div className="autoplay-progress" slot="container-end">
           <svg viewBox="0 0 48 48" ref={progressCircle}>
             <circle cx="24" cy="24" r="20"></circle>

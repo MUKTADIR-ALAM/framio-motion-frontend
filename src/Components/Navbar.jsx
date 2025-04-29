@@ -44,7 +44,7 @@ export default function Navbar() {
                 aria-label="close sidebar"
                 className="drawer-overlay"
               ></label>
-              <ul className="menu bg-base-200 text-base-content min-h-full w-80 p-4">
+              <ul className="menu bg-base-200 text-base-content min-h-full w-80 p-4  text-2xl flex flex-col gap-10 ">
                 {/* Sidebar content here */}
                 <li className="border-b">
                   <a>Video Editing Sercives</a>
@@ -57,6 +57,9 @@ export default function Navbar() {
                 </li>
                 <li className="border-b">
                   <a>Contact US</a>
+                </li>
+                <li className="border-b">
+                  <a>Our Team</a>
                 </li>
               </ul>
             </div>
