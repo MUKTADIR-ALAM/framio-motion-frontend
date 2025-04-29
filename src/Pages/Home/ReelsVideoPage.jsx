@@ -21,7 +21,7 @@ export default function ReelsVideoPage() {
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 items-center  space-y-4">
         {flimArray.map((video, idx) => {
           return (
-            <div key={idx} className="border rounded-2xl">
+            <div key={idx} className="border rounded-2xl overflow-hidden">
               <iframe
                 className="w-[315px] h-[560px] lg:w-[315px] lg:h-[560px] mx-auto"
                 // width="560"
