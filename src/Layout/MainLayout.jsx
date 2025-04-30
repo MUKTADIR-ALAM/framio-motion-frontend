@@ -25,7 +25,7 @@ export default function MainLayout() {
   return (
     <div className="font-roboto bg-black">
       <motion.div
-        className="pointer-events-none fixed z-50 w-4 h-4 rounded-full bg-white mix-blend-difference"
+        className="pointer-events-none fixed z-50 w-5 h-5 rounded-full bg-theme "
         style={{
           translateX: smoothX,
           translateY: smoothY,
