@@ -9,8 +9,8 @@ export default function MainLayout() {
   const mouseX = useMotionValue(0);
   const mouseY = useMotionValue(0);
 
-  const smoothX = useSpring(mouseX, { stiffness: 200, damping: 20 });
-  const smoothY = useSpring(mouseY, { stiffness: 200, damping: 20 });
+  const smoothX = useSpring(mouseX, { stiffness: 600, damping: 40 });
+  const smoothY = useSpring(mouseY, { stiffness: 600, damping: 40 });
 
   useEffect(() => {
     const move = (e) => {
