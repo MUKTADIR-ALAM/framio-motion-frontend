@@ -1,23 +1,18 @@
 import React from "react";
 
 export default function ReelsVideoPage() {
-
-    const flimArray = 
-  [
+  const flimArray = [
+    "https://www.youtube.com/embed/8wXwc7Xrf5Y",
+    "https://www.youtube.com/embed/Il2aiPrzhzI",
     "https://www.youtube.com/embed/L3KCtv0mU_4",
     "https://www.youtube.com/embed/21e7aq362j4",
     "https://www.youtube.com/embed/Rg5We0LeL0k",
     "https://www.youtube.com/embed/YfM5fijnrP8",
     "https://www.youtube.com/embed/-DLAzyr3p9w",
-    "https://www.youtube.com/embed/8wXwc7Xrf5Y",
-    "https://www.youtube.com/embed/Il2aiPrzhzI"
-  ]
+  ];
 
   return (
     <div className="w-11/12 mx-auto my-5">
-
-
-
       <h2 className="text-4xl font-bold mb-10">Our wedding trailer Edits</h2>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 items-center  space-y-4">
         {flimArray.map((video, idx) => {
@@ -39,8 +34,6 @@ export default function ReelsVideoPage() {
           );
         })}
       </div>
-
-     
     </div>
   );
 }
