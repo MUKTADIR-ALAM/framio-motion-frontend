@@ -10,6 +10,7 @@ export default function ReelsVideoPage() {
     "https://www.youtube.com/embed/YfM5fijnrP8",
     "https://www.youtube.com/embed/-DLAzyr3p9w",
     "https://www.youtube.com/embed/8wXwc7Xrf5Y",
+    "https://www.youtube.com/embed/Il2aiPrzhzI"
   ]
 
   return (
@@ -32,6 +33,7 @@ export default function ReelsVideoPage() {
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerPolicy="strict-origin-when-cross-origin"
                 allowFullScreen
+                loading="lazy"
               ></iframe>
             </div>
           );
