@@ -4,6 +4,8 @@ import Footer from "../Components/Footer";
 import { Outlet } from "react-router";
 import { motion, useMotionValue, useSpring } from "framer-motion";
 import { useEffect } from "react";
+import vdo from '../assets/videos/vdo.mp4'
+import './MainLayout.css';
 
 export default function MainLayout() {
   const mouseX = useMotionValue(0);
@@ -23,8 +25,8 @@ export default function MainLayout() {
   }, [mouseX, mouseY]);
 
   return (
-    <div className="font-roboto bg-black">
-      <motion.div
+    <div className="font-roboto bg-black main">
+      {/* <motion.div
         className="pointer-events-none fixed z-50 w-5 h-5 rounded-full bg-theme "
         style={{
           translateX: smoothX,
@@ -32,17 +34,20 @@ export default function MainLayout() {
           x: "-50%",
           y: "-50%",
         }}
-      />
-      <header>
-        <Navbar />
-      </header>
+      /> */}
+      <video className="video" src={vdo} autoPlay loop muted />
+      <div className="content">
+        <header>
+          <Navbar />
+        </header>
 
-      <main className="min-h-screen">
-        <Outlet />
-      </main>
+            <main className="min-h-screen">
+              <Outlet />
+            </main>
 
-      <div>
-        <Footer />
+              <div>
+                 <Footer />
+              </div>
       </div>
     </div>
   );

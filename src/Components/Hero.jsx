@@ -9,8 +9,8 @@ export default function Hero() {
     <div className="flex flex-col lg:flex-row mx-auto w-11/12 gap-10">
       {/* slogan div */}
 
-      <div className="w-full lg:w-1/2">
-        <h1 className="lg:text-5xl text-3xl mt-20 mx-auto w-11/12 lg:leading-16 leading-10">
+      {/* <div className="w-full lg:w-1/2">
+        <h1 className="lg:text-5xl text-3xl text-black mt-20 mx-auto w-11/12 lg:leading-16 leading-10">
           Make your thought into reality with us. we build complete{" "}
           <span className="text-theme">
             <Typewriter
@@ -36,12 +36,12 @@ export default function Hero() {
             <GoArrowUpRight size={25} />
           </div>
         </button>
-      </div>
+      </div> */}
 
       {/* <img className="w-full lg:w-6/12 mx-auto" src={background} alt="" /> */}
-      <div className="w-full lg:w-1/2  mx-auto mt-[-50px]">
+      {/* <div className="w-full lg:w-1/2  mx-auto mt-[-50px]">
         <Lottie animationData={animationData} loop={true} />
-      </div>
+      </div> */}
     </div>
   );
 }
