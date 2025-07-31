@@ -9,8 +9,8 @@ export default function Hero() {
     <div className="flex flex-col lg:flex-row mx-auto w-11/12 gap-10">
       {/* slogan div */}
 
-      {/* <div className="w-full lg:w-1/2">
-        <h1 className="lg:text-5xl text-3xl text-black mt-20 mx-auto w-11/12 lg:leading-16 leading-10">
+      <div className="w-full  flex justify-center items-center">
+        <h1 className="hero-text lg:text-5xl text-3xl text-white mt-60 mx-auto w-6/12 lg:leading-16 leading-10">
           Make your thought into reality with us. we build complete{" "}
           <span className="text-theme">
             <Typewriter
@@ -29,14 +29,14 @@ export default function Hero() {
             />
           </span>
         </h1>
-        <button className="ml-5 mt-5 btn bg-theme shadow-none text-gray-800 rounded-xl font-semibold group text-xl py-6 px-5">
+        {/* <button className="ml-5 mt-5 btn bg-theme shadow-none text-gray-800 rounded-xl font-semibold group text-xl py-6 px-5">
           Get Quote{" "}
           <div className="transform transition-transform duration-300 ease-in-out group-hover:rotate-45">
             {" "}
             <GoArrowUpRight size={25} />
           </div>
-        </button>
-      </div> */}
+        </button> */}
+      </div>
 
       {/* <img className="w-full lg:w-6/12 mx-auto" src={background} alt="" /> */}
       {/* <div className="w-full lg:w-1/2  mx-auto mt-[-50px]">
