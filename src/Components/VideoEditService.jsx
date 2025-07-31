@@ -3,7 +3,7 @@ import ServiceCard from "./ServiceCard";
 
 export default function VideoEditService() {
   return (
-    <div className="w-11/12 mx-auto flex flex-col items-center mt-[500px]">
+    <div className="w-11/12 mx-auto flex flex-col items-center mt-[700px]">
       <h2 className="text-4xl mt-20 mb-10 leading-12">
         Our {" "}
         <span className="text-theme">Video Editing </span>{" "}

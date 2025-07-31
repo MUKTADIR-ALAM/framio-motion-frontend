@@ -35,6 +35,7 @@ export default function MainLayout() {
           y: "-50%",
         }}
       /> */}
+      <div className="overlay"></div>
       <video className="video" src={vdo} autoPlay loop muted />
       <div className="content">
         <header>
