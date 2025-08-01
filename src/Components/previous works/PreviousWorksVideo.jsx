@@ -42,7 +42,7 @@ export default function PreviousWorksVideo() {
 
 
   return (
-    <div className="w-11/12 mx-auto my-5 mt-[850px]">
+    <div className="w-11/12 mx-auto my-5 mt-[200px]">
       <h2 className="vdo-heading text-4xl font-bold my-10 text-center">Wedding Events</h2>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 justify-center items-center place-items-center">
         {videosTrailerArray.map((video, idx) => {

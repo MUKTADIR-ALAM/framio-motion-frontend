@@ -6,14 +6,19 @@ import WhatWeDoSection from "../../Components/WhatWeDoSection";
 import Skills from "../../Components/Skills";
 import Statics from "../../Components/Statics";
 import PreviousWorksVideo from "../../Components/previous works/PreviousWorksVideo"
+import Greetings from "../../Components/Greetings";
 
 export default function Hompage() {
   return (
     <div>
       <Hero/>
       {/* <VideoEditService/> */}
+      
+      <Greetings/>
+
       <PreviousWorksVideo/>
-      <TestimonialSlides/>
+
+      {/* <TestimonialSlides/> */}
       <Skills/>
       <WhatWeDoSection/>
       <Statics/>
