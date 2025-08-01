@@ -10,7 +10,7 @@ export default function Hero() {
       {/* slogan div */}
 
       <div className="w-full  flex justify-center items-center">
-        <h1 className="hero-text lg:text-5xl text-3xl text-white mt-60 mx-auto w-6/12 lg:leading-16 leading-10">
+        {/* <h1 className="hero-text lg:text-5xl text-3xl text-white mt-60 mx-auto w-6/12 lg:leading-16 leading-10">
           Make your thought into reality with us. we build complete{" "}
           <span className="text-theme">
             <Typewriter
@@ -28,7 +28,7 @@ export default function Hero() {
               delaySpeed={1000}
             />
           </span>
-        </h1>
+        </h1> */}
         {/* <button className="ml-5 mt-5 btn bg-theme shadow-none text-gray-800 rounded-xl font-semibold group text-xl py-6 px-5">
           Get Quote{" "}
           <div className="transform transition-transform duration-300 ease-in-out group-hover:rotate-45">

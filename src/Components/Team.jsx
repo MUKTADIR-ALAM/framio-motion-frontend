@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Team() {
   return (
-    <div>
+    <div id="team">
       <h2 className="text-4xl mt-30 mx-auto w-11/12 leading-20">Meet our Team</h2>
 
       {/* team section */}
