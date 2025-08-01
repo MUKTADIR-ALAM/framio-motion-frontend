@@ -99,6 +99,7 @@ export default function WeddingVideoPage() {
           );
         })}
       </div>
+
     </div>
   );
 }

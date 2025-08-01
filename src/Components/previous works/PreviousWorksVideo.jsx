@@ -1,3 +1,7 @@
+import we1 from '../../assets/grapic work/Aesthetic Wedding Photography Design-1.jpg'
+import we2 from '../../assets/grapic work/Aesthetic Wedding Photography Design-3.jpg'
+import sig from '../../assets/grapic work/Signature Dish Design-1.jpg'
+import sig2 from '../../assets/grapic work/Signature Dish Design-3.jpg'
 
 
 export default function PreviousWorksVideo() {
@@ -85,25 +89,16 @@ export default function PreviousWorksVideo() {
         })}
       </div>
 
-      {/* <h2 className="text-4xl font-bold my-20">Our wedding Flims Edits</h2>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 items-center  space-y-4">
-        {flimArray.map((video, idx) => {
-          return (
-            <div key={idx}>
-              <iframe
-                className="w-[340px] h-[270px] lg:w-[560px] lg:h-[315px]"
-                src={video}
-                title="YouTube video player"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerPolicy="strict-origin-when-cross-origin"
-                allowFullScreen
-                loading="lazy"
-              ></iframe>
-            </div>
-          );
-        })}
-      </div> */}
+
+      <h2 className="vdo-heading text-4xl font-bold my-20 text-center">Grapics Works</h2>
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 items-center place-items-center space-y-6">
+        <img className='w-[500px] h-[600px]' src={we1} alt="" />
+        <img className='w-[500px] h-[600px]' src={we2} alt="" />
+        <img className='w-[500px] h-[600px]' src={sig} alt="" />
+        <img className='w-[500px] h-[600px]' src={sig2} alt="" />
+      </div>
+
+     
     </div>
   );
 }
