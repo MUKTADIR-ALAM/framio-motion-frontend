@@ -1,16 +1,13 @@
-import { GoArrowUpRight } from "react-icons/go";
-import background from "../assets/background.png";
+
 import { Typewriter } from "react-simple-typewriter";
-import Lottie from "lottie-react";
-import animationData from "../assets/animation.json";
 
 export default function Hero() {
   return (
     <div className="flex flex-col lg:flex-row mx-auto w-11/12 gap-10">
       {/* slogan div */}
 
-      <div className="w-full  flex justify-center items-center">
-        {/* <h1 className="hero-text lg:text-5xl text-3xl text-white mt-60 mx-auto w-6/12 lg:leading-16 leading-10">
+      <div className="w-[100%] h-[100%] mb-6 flex justify-center items-center">
+        <h1 className="hero-text lg:text-5xl text-2xl font-black text-white mt-60 mx-auto w-6/12 lg:leading-16 leading-10">
           Make your thought into reality with us. we build complete{" "}
           <span className="text-theme">
             <Typewriter
@@ -28,20 +25,11 @@ export default function Hero() {
               delaySpeed={1000}
             />
           </span>
-        </h1> */}
-        {/* <button className="ml-5 mt-5 btn bg-theme shadow-none text-gray-800 rounded-xl font-semibold group text-xl py-6 px-5">
-          Get Quote{" "}
-          <div className="transform transition-transform duration-300 ease-in-out group-hover:rotate-45">
-            {" "}
-            <GoArrowUpRight size={25} />
-          </div>
-        </button> */}
+        </h1>
+       
       </div>
 
-      {/* <img className="w-full lg:w-6/12 mx-auto" src={background} alt="" /> */}
-      {/* <div className="w-full lg:w-1/2  mx-auto mt-[-50px]">
-        <Lottie animationData={animationData} loop={true} />
-      </div> */}
+      
     </div>
   );
 }

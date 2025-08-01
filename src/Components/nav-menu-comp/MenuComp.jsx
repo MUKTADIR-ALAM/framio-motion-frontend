@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import './MenuComp.css';
 import { FiMenu } from "react-icons/fi";
 import { RxCross2 } from "react-icons/rx";
 
@@ -12,6 +11,7 @@ export default function MenuComp() {
       document.querySelector('.menux').style.display = 'none';
       document.querySelector('.video').style.display = 'none';
       document.querySelector('.menu').style.display = 'flex';
+      document.querySelector('.hero-text').style.display = 'none';
 
       
     } 
@@ -20,6 +20,7 @@ export default function MenuComp() {
       document.querySelector('.menux').style.display = 'inline';
       document.querySelector('.video').style.display = '';
       document.querySelector('.menu').style.display = 'none';
+      document.querySelector('.hero-text').style.display = '';
       
     } 
   }, [isMenuOpened]);

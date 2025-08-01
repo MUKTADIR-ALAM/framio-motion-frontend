@@ -1,17 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
 
 
 @import "tailwindcss";
 @plugin "daisyui";
 
-@font-face {
-  font-family: 'Zefani';
-  src: url('./assets/fonts/Zefani.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
-}
+
 
 
 @theme {
@@ -24,7 +19,7 @@ html {
 }
 
 
-.hero-text{
-   font-family: 'Zefani', sans-serif;
+.hero-text ,.vdo-heading{
+    font-family: "Cormorant Garamond", serif;
 }
 
