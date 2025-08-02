@@ -52,6 +52,7 @@ export default function PreviousWorksVideo() {
         {videosTrailerArray.map((video, idx) => {
           return (
             <div
+            
               key={idx}
             >
               <iframe
@@ -73,7 +74,7 @@ export default function PreviousWorksVideo() {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 items-center place-items-center">
         {event.map((video, idx) => {
           return (
-            <div key={idx}>
+            <div key={idx} className=''>
               <iframe
                 className="w-[340px] h-[270px] lg:w-[700px] lg:h-[455px]"
                 src={video}
