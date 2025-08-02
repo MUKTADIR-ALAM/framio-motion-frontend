@@ -17,11 +17,6 @@ export default function MenuComp() {
       document.querySelector('.nav').style.width = '100%';
       document.querySelector('.nav').style.height = '100%';
       document.querySelector('.nav').style.top = '0';
-
-
-  //     width: 100%;
-  //  height: 100%;
-  //  top: 0;
       
     } 
     if (!isMenuOpened) {

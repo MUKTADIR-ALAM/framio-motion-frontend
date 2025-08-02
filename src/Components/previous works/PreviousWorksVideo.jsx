@@ -92,10 +92,10 @@ export default function PreviousWorksVideo() {
 
       <h2 className="vdo-heading text-4xl font-bold my-20 text-center">Graphics Works</h2>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 items-center place-items-center space-y-6">
-        <img className='w-[450px] h-[500px]' src={we1} alt="" />
-        <img className='w-[450px] h-[500px]' src={we2} alt="" />
-        <img className='w-[450px] h-[500px]' src={sig} alt="" />
-        <img className='w-[450px] h-[500px]' src={sig2} alt="" />
+        <img className='w-[500px] h-[520px]' src={we1} alt="" />
+        <img className='w-[500px] h-[520px]' src={we2} alt="" />
+        <img className='w-[500px] h-[520px]' src={sig} alt="" />
+        <img className='w-[500px] h-[520px]' src={sig2} alt="" />
       </div>
 
      
