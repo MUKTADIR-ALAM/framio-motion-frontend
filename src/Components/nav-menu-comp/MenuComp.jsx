@@ -12,7 +12,16 @@ export default function MenuComp() {
       document.querySelector('.video').style.display = 'none';
       document.querySelector('.menu').style.display = 'flex';
       document.querySelector('.hero-text').style.display = 'none';
+      document.querySelector('.content').style.position = 'static';
+      document.querySelector('.nav').style.position = 'absolute';
+      document.querySelector('.nav').style.width = '100%';
+      document.querySelector('.nav').style.height = '100%';
+      document.querySelector('.nav').style.top = '0';
 
+
+  //     width: 100%;
+  //  height: 100%;
+  //  top: 0;
       
     } 
     if (!isMenuOpened) {
@@ -21,7 +30,12 @@ export default function MenuComp() {
       document.querySelector('.video').style.display = '';
       document.querySelector('.menu').style.display = 'none';
       document.querySelector('.hero-text').style.display = '';
-      
+      document.querySelector('.content').style.position = 'absolute';
+      document.querySelector('.nav').style.position = '';
+
+      document.querySelector('.nav').style.width = '';
+      document.querySelector('.nav').style.height = '';
+      document.querySelector('.nav').style.top = '';
     } 
   }, [isMenuOpened]);
 

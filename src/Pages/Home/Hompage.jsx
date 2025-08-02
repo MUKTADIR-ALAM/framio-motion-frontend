@@ -12,13 +12,8 @@ export default function Hompage() {
   return (
     <div>
       <Hero/>
-      {/* <VideoEditService/> */}
-      
       <Greetings/>
-
       <PreviousWorksVideo/>
-
-      {/* <TestimonialSlides/> */}
       <Skills/>
       <WhatWeDoSection/>
       <Statics/>

@@ -38,13 +38,15 @@ export default function MainLayout() {
       <div className="overlay"></div>
       <video className="video" src={vdo} autoPlay loop muted />
       <div className="menu flex justify-center items-center gap-20 text-4xl font-black">
-        <a href="" className="cursor-pointer z-10">Home</a>
-        <li className="cursor-pointer z-10">Our Services</li>
-        <a href="#footer" className="cursor-pointer z-10 ">Contact Us</a>
-        <a href="#team" className="cursor-pointer z-10">Our Team</a>
+          <a href="" className="cursor-pointer z-10">Home</a>
+          <a className="cursor-pointer z-10">Our Services</a>
+          <a href="#footer" className="cursor-pointer z-10 ">Contact Us</a>
+          <a href="#team" className="cursor-pointer z-10 ">Our Team</a>
       </div>
+
+
       <div className="content">
-        <header>
+        <header className="nav">
           <Navbar />
         </header>
 
